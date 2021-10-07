@@ -1,0 +1,73 @@
+.photo{
+	width: 100%;
+}
+.ph_d_s{
+	width: 30%;
+}
+.wd{
+	width: 100%;
+	padding: 10px;
+}
+.wd1{
+	width: 50%;
+	padding-left: 100px; 
+}
+.lft{
+	float: left;
+}
+.rgt{
+	text-align: center;
+}
+.pndg{
+	padding-top: 30px; 
+	border: ridge;
+	width: 100%;
+}
+.cntr{
+	text-align: center;
+	width: 65%;
+}
+.bs{
+	width: 90%;
+}
+.box{
+	box-shadow: 5px 5px 5px;
+	color: gray;
+	background-color: green;
+}
+.box1{
+	box-shadow: 5px 5px 5px;
+	color: white;
+}
+.clr{
+	color: white;
+}
+.xx{
+	width: 70%;float: left;
+}
+.xx2{
+	width: 90%;
+}
+@media screen and (max-width: 680px) {
+	.lft{
+		float: none;
+	}
+	.wd1{
+		width: 97%;
+		padding-left: 0px; 
+	}
+	.bs{
+		width: 90%;
+	}
+	.ph_d_s{
+		width: 90%;
+	}
+	.pndg1{
+		padding-left: 0px;
+		width: 90%;
+	}
+	.cntr{
+		text-align: center;
+		width: 100%;
+	}
+}
